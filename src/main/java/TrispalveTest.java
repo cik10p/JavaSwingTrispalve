@@ -16,21 +16,19 @@ public class TrispalveTest {
         JPanel geltona = new JPanel();
         geltona.setBackground(Color.yellow);
         geltona.setSize(width,height/3);
-        frame.getContentPane().add(geltona);
+
         frame.add(geltona);
 
         // sukurti JPanel zalios spalva
         JPanel zalia = new JPanel();
         zalia.setBackground(Color.green);
         zalia.setSize(width,height/3);
-        frame.getContentPane().add(zalia);
         frame.add(zalia);
 
         // sukurti JPanel randonos spalva
         JPanel raudona = new JPanel();
         raudona.setBackground(Color.red);
         raudona.setSize(width,height/3);
-        frame.getContentPane().add(raudona);
         frame.add(raudona);
 
         frame.setVisible(true);
